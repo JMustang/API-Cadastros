@@ -2,20 +2,20 @@
 
 ### Cadastro de Tags(elogios possiveis)
 
-[ ] Somente usuario administrador
+[ ] Somente usuário administrador
 
 ### Cadastro de elogios
 
-[ ] ID do usuario que está recebendo elogios
-[ ] ID do usuario que esta enviando o elogio
+[ ] ID do usuário que está recebendo elogios
+[ ] ID do usuário que esta enviando o elogio
 [ ] ID da Tag
 [ ] Data de criacao
 
-### Autenticacao de usuario
+### Autenticacao de usuário
 
 [ ] Gerar token JWT
-[ ] Validar usuario logando nas rotas necessarias
+[ ] Validar usuário logando nas rotas necessarias
 
-[ ] Listagem de usuarios
+[ ] Listagem de usuários
 [ ] Listagem de Tags
-[ ] Listagemde elogios por usuario
+[ ] Listagem de elogios por usuário
