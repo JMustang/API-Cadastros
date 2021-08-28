@@ -1,0 +1,11 @@
+{
+  "name": "API-Cadastros",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JMustang/API-Cadastros.git",
+  "author": "Junior <eecfredes@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
+}

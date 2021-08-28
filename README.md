@@ -1,6 +1,6 @@
 # API-Cadastros
 
-### Cadastro de Tags(elogios possiveis)
+### Cadastro de Tags(elogios possíveis)
 
 [ ] Somente usuário administrador
 
@@ -9,12 +9,12 @@
 [ ] ID do usuário que está recebendo elogios
 [ ] ID do usuário que esta enviando o elogio
 [ ] ID da Tag
-[ ] Data de criacao
+[ ] Data de criação
 
-### Autenticacao de usuário
+### Autenticação de usuário
 
 [ ] Gerar token JWT
-[ ] Validar usuário logando nas rotas necessarias
+[ ] Validar usuário logando nas rotas necessário
 
 [ ] Listagem de usuários
 [ ] Listagem de Tags
