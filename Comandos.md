@@ -6,3 +6,6 @@
 4. yarn add express
 5. yarn add @types/express -D
 6. yarn add ts-node-dev -D
+
+-D = dependeicia de desenvolvimento
+-y = sim para todas as perguntas
