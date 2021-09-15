@@ -6,7 +6,13 @@
 4. yarn add express
 5. yarn add @types/express -D
 6. yarn add ts-node-dev -D
+7. yarn add typeorm reflect-metadata sqlite3
 
 -D = dependencia de desenvolvimento
 -y = sim para todas as perguntas
-`
+
+- query builder
+  . typeORM
+
+- banco de dados
+  . sqlite 3
