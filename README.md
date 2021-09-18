@@ -1,3 +1,7 @@
+<center>
+<img src="/node.png" alt="node" width="200"/>
+</center>
+
 # API-Cadastros
 
 ### Cadastro de Tags(elogios possíveis)
