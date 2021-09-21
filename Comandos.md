@@ -1,12 +1,12 @@
 # Comandos
 
-1. yarn init -y
-2. yarn add typescript -D
-3. yarn tsc --init
-4. yarn add express
-5. yarn add @types/express -D
-6. yarn add ts-node-dev -D
-7. yarn add typeorm reflect-metadata sqlite3
+1. yarn init -y |inicia o package.json
+2. yarn add typescript -D |adiciona o typescript ao projeto
+3. yarn add express |adiciona a biblioteca do express
+4. yarn tsc --init |inicia o arquivo tsconfig.json
+5. yarn add @types/express -D |adiciona as tipagens da lib express
+6. yarn add ts-node-dev -D |adiciona o ts-node-dev ao projeto
+7. yarn add typeorm reflect-metadata sqlite3 |adiciona o typeorm, reflect-metadata e o sqlite3 ao projeto
 
 -D = dependencia de desenvolvimento
 -y = sim para todas as perguntas
