@@ -7,6 +7,8 @@
 5. yarn add @types/express -D |adiciona as tipagens da lib express
 6. yarn add ts-node-dev -D |adiciona o ts-node-dev ao projeto
 7. yarn add typeorm reflect-metadata sqlite3 |adiciona o typeorm, reflect-metadata e o sqlite3 ao projeto
+8. yarn add uuid
+9. yarn add @types/uuid -D
 
 -D = dependencia de desenvolvimento
 -y = sim para todas as perguntas
@@ -21,3 +23,7 @@
 
   1.yarn typeorm migration:create -n CreateUsers
   2.yarn typeorm migration:run
+
+- criando as entidades
+
+  1.yarn typeorm entity:create -n User
