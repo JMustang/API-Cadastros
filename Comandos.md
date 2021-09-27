@@ -9,6 +9,7 @@
 7. yarn add typeorm reflect-metadata sqlite3 |adiciona o typeorm, reflect-metadata e o sqlite3 ao projeto
 8. yarn add uuid
 9. yarn add @types/uuid -D
+10. yarn add express-async-errors|lib de tratativas de errors
 
 -D = dependencia de desenvolvimento
 -y = sim para todas as perguntas
@@ -21,8 +22,9 @@
 
 - Executando as migrations
 
-  1.yarn typeorm migration:create -n CreateUsers
-  2.yarn typeorm migration:run
+  .yarn typeorm migration:create -n CreateUsers
+  .yarn typeorm migration:create -n CreateTags
+  .yarn typeorm migration:run
 
 - criando as entidades
 
