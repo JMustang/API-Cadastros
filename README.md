@@ -6,6 +6,8 @@
 
 ### Cadastro de Tags(elogios possíveis)
 
+[ x ] Nao e permitido cadastra Tags sem nome
+[ x ] Nao e permitido cadastra mais de uma Tag com o mesmo nome
 [ ] Somente usuário administrador
 
 ### Cadastro de elogios
