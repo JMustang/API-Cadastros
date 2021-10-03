@@ -8,7 +8,7 @@
 
 [ x ] Nao e permitido cadastra Tags sem nome
 [ x ] Nao e permitido cadastra mais de uma Tag com o mesmo nome
-[ ] Somente usuário administrador
+[ x ] Somente usuário administrador
 
 ### Cadastro de elogios
 
