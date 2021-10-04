@@ -4,6 +4,8 @@
 
 # API-Cadastros
 
+🧑‍💻
+
 ### Cadastro de Tags(elogios possíveis)
 
 [ x ] Nao e permitido cadastra Tags sem nome
