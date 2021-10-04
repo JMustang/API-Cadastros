@@ -1,4 +1,4 @@
-# Comandos
+# Comandos 🛠
 
 1. yarn init -y |inicia o package.json
 2. yarn add typescript -D |adiciona o typescript ao projeto
@@ -17,7 +17,7 @@
 - query builder
   . typeORM
 
-- banco de dados
+- banco de dados b
   . sqlite 3
 
 - Executando as migrations
@@ -26,6 +26,6 @@
   .yarn typeorm migration:create -n CreateTags
   .yarn typeorm migration:run
 
-- criando as entidades
+- criando as entidades 👻
 
   1.yarn typeorm entity:create -n User
