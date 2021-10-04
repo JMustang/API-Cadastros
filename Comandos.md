@@ -10,6 +10,8 @@
 8. yarn add uuid
 9. yarn add @types/uuid -D
 10. yarn add express-async-errors|lib de tratativas de errors
+11. yarn add jsonwebtoken
+12. yarn add @types/jsonwebtoken -D
 
 -D = dependencia de desenvolvimento
 -y = sim para todas as perguntas
