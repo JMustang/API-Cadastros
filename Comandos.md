@@ -26,6 +26,7 @@
 
   .yarn typeorm migration:create -n CreateUsers
   .yarn typeorm migration:create -n CreateTags
+  .yarn typeorm migration:create -n AlterUserAddPassword
   .yarn typeorm migration:run
 
 - criando as entidades 👻
