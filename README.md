@@ -27,3 +27,18 @@
 [ ] Listagem de usuários
 [ ] Listagem de Tags
 [ ] Listagem de elogios por usuário
+
+```ts
+const express require('express')
+const app = express()
+const PORT = 3000
+
+app.get('/',(req, res) =>{
+    res.send('bruuuuuuuw!')
+
+    app.listen(PORT, () =>{
+        console.log(`Server is running on ${PORT}` )
+    })
+})
+
+```
