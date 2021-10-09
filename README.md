@@ -42,3 +42,20 @@ app.get('/',(req, res) =>{
 })
 
 ```
+
+# ORM
+
+### Object–relational mapping
+
+. O mapeamento objeto-relacional (ferramenta de mapeamento ORM, O / RM e O / R) em ciência da computação é uma técnica de programação para converter dados entre sistemas de tipos incompatíveis usando linguagens de programação orientadas a objetos. Isso cria, com efeito, um "banco de dados de objetos virtuais" que pode ser usado a partir da linguagem de programação.
+Existem pacotes gratuitos e comerciais disponíveis que realizam mapeamento objeto-relacional, embora alguns programadores optem por construir suas próprias ferramentas ORM.
+
+. Na programação orientada a objetos, as tarefas de gerenciamento de dados atuam em objetos que quase sempre são valores não escalares. Por exemplo,
+considere uma entrada do catálogo de endereços que representa uma única pessoa junto com zero ou mais números de telefone e zero ou mais endereços. Isso poderia ser modelado em uma implementação orientada a objetos por um "objeto Pessoa" com um atributo / campo para conter cada item de dados que a entrada compreende: o nome da pessoa, uma lista de números de telefone e uma lista de endereços
+. A própria lista de números de telefone conteria "objetos PhoneNumber" e assim por diante. Cada entrada do catálogo de endereços é tratada como um único objeto pela linguagem de programação (ela pode ser referenciada por uma única variável contendo um ponteiro para o objeto, por exemplo). Vários métodos podem ser associados ao objeto,
+como métodos para retornar o número de telefone preferido, o endereço residencial e assim por diante.
+
+Por outro lado, muitos produtos de banco de dados populares, como sistemas de gerenciamento de banco de dados SQL (DBMS), não são orientados a objetos e só podem armazenar e manipular valores escalares, como inteiros e strings organizados em tabelas.
+O programador deve converter os valores do objeto em grupos de valores mais simples para armazenamento no banco de dados (e convertê-los de volta na recuperação) ou usar apenas valores escalares simples dentro do programa. O mapeamento objeto-relacional implementa a primeira abordagem.
+O cerne do problema envolve traduzir a representação lógica dos objetos em uma forma atomizada que seja capaz de ser armazenada no banco de dados enquanto preserva as propriedades dos objetos e seus relacionamentos para que eles possam ser recarregados como objetos quando necessário. Se esta funcionalidade de armazenamento e recuperação for implementada,
+os objetos são considerados persistentes.
