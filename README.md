@@ -60,6 +60,16 @@ app.get('/',(req, res) =>{
   O cerne do problema envolve traduzir a representação lógica dos objetos em uma forma atomizada que seja capaz de ser armazenada no banco de dados enquanto preserva as propriedades dos objetos e seus relacionamentos para que eles possam ser recarregados como objetos quando necessário. Se esta funcionalidade de armazenamento e recuperação for implementada,
   os objetos são considerados persistentes.
 
+  # Typeorm
+
+- TypeORM é um ORM que pode ser executado nas plataformas NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo e Electron e pode ser usado com TypeScript e JavaScript (ES5, ES6, ES7, ES8).
+- Seu objetivo é sempre oferecer suporte aos recursos JavaScript mais recentes e fornecer recursos adicionais que o ajudem a desenvolver qualquer tipo de aplicativo que use bancos de dados - desde pequenos aplicativos com algumas tabelas até aplicativos corporativos de grande escala com vários bancos de dados.
+
+- TypeORM suporta os padrões Active Record e Data Mapper,
+  ao contrário de todos os outros ORMs JavaScript existentes atualmente, o que significa que você pode escrever aplicativos de alta qualidade, fracamente acoplados, escaláveis ​​e sustentáveis ​​da maneira mais produtiva.
+
+- TypeORM é altamente influenciado por outros ORMs, como Hibernate, Doctrine e Entity Framework.
+
 # Migrations
 
 - As migrações são como o controle de versão do seu banco de dados.
