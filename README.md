@@ -87,3 +87,10 @@ app.get('/',(req, res) =>{
 "entities": ["entity/*.js"], "migrationsTableName": "student_migration_table", "migrations": ["migration/*.js"], "cli": {
    "migrationsDir": "migration"
 ```
+
+# TypeScript
+
+- TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft.
+- É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.
+- Tipos fornecem uma maneira de descrever a forma de um objeto, fornecendo melhor documentação e permitindo que o TypeScript valide se seu código está funcionando corretamente.
+- typescriptlang.org
