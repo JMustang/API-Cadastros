@@ -43,6 +43,12 @@ app.get('/',(req, res) =>{
 
 ```
 
+# Node.js
+
+- **Node.js** é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador.
+
+nodejs.org
+
 # ORM
 
 ### Object–relational mapping
@@ -93,4 +99,4 @@ app.get('/',(req, res) =>{
 - TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft.
 - É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.
 - Tipos fornecem uma maneira de descrever a forma de um objeto, fornecendo melhor documentação e permitindo que o TypeScript valide se seu código está funcionando corretamente.
-- typescriptlang.org
+  typescriptlang.org
