@@ -100,3 +100,11 @@ nodejs.org
 - É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.
 - Tipos fornecem uma maneira de descrever a forma de um objeto, fornecendo melhor documentação e permitindo que o TypeScript valide se seu código está funcionando corretamente.
   typescriptlang.org
+
+# SQLite
+
+- SQLite é uma biblioteca em linguagem C que implementa um banco de dados SQL embutido.
+- Programas que usam a biblioteca SQLite podem ter acesso a banco de dados SQL sem executar um processo SGBD separado. - SQLite não é uma biblioteca cliente usada para conectar com um grande servidor de banco de dados, mas sim o próprio servidor. \
+- A biblioteca SQLite lê e escreve diretamente no arquivo de banco de dados no disco.Wikipedia (PT)
+
+sqlite.org
