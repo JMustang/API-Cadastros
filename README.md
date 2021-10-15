@@ -101,6 +101,21 @@ nodejs.org
 - Tipos fornecem uma maneira de descrever a forma de um objeto, fornecendo melhor documentação e permitindo que o TypeScript valide se seu código está funcionando corretamente.
   typescriptlang.org
 
+tsconfig.json
+
+```json
+{
+"compilerOptions": {
+  "target": "es5"
+  "experimentalDecorators": true,
+  "emitDecoratorMetadata": true,
+  "module": "commonjs" ,
+  "esModuleInterop": true,
+  "strictPropertyInitialization": false
+}
+}
+```
+
 # SQLite
 
 - SQLite é uma biblioteca em linguagem C que implementa um banco de dados SQL embutido.
