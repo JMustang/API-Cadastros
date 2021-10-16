@@ -66,6 +66,21 @@ nodejs.org
   O cerne do problema envolve traduzir a representação lógica dos objetos em uma forma atomizada que seja capaz de ser armazenada no banco de dados enquanto preserva as propriedades dos objetos e seus relacionamentos para que eles possam ser recarregados como objetos quando necessário. Se esta funcionalidade de armazenamento e recuperação for implementada,
   os objetos são considerados persistentes.
 
+  ormconfg.json
+
+  ```json
+  {
+    "type": "sqlite",
+    "database": "src/database/database.sqlite",
+    "migrations": ["src/database/migrations/*.ts"],
+    "entities": ["src/entities/*.ts"],
+    "cli": {
+      "migrationsDir": "src/database/migrations",
+      "entitiesDir": "src/entities"
+    }
+  }
+  ```
+
   # Typeorm
 
 - TypeORM é um ORM que pode ser executado nas plataformas NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo e Electron e pode ser usado com TypeScript e JavaScript (ES5, ES6, ES7, ES8).
