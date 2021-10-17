@@ -138,3 +138,18 @@ tsconfig.json
 - A biblioteca SQLite lê e escreve diretamente no arquivo de banco de dados no disco.Wikipedia (PT)
 
 sqlite.org
+
+# yarn
+
+Introdução
+Yarn é um novo gerenciador de pacotes JavaScript de código aberto desenvolvido pelo Facebook. O Yarn é totalmente compatível com o registro npm e pode funcionar junto com o npm, mas tem como objetivo ser uma alternativa mais segura, mais segura e confiável.
+
+Você pode substituir todo o seu fluxo de trabalho npm pelo Yarn para projetos novos ou atuais com o mínimo de esforço.
+As dependências no Yarn são mantidas em um arquivo yarn.lock que deve ser verificado em seu controle de origem, mas o arquivo em si é apenas para o Yarn e não deve ser editado. Aqui, apenas o suficiente para você começar com o Yarn.
+
+Instalando o Yarn Package Manager
+Existem algumas maneiras de instalar o Yarn. Você pode, ironicamente, instalá-lo por meio do npm:
+
+```
+npm install -g yarn
+```
