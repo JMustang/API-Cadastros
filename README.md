@@ -153,3 +153,11 @@ Existem algumas maneiras de instalar o Yarn. Você pode, ironicamente, instalá-
 ```
 npm install -g yarn
 ```
+
+# Interface de programação de aplicações
+
+- Interface de Programação de Aplicações ou Interface de Programação de Aplicação, cuja sigla **_API_** provém do Inglês Application Programming Interface, é um conjunto de rotinas e padrões estabelecidos por um software para a utilização das suas funcionalidades por aplicativos que não pretendem envolver-se em detalhes da implementação do software, mas apenas usar seus serviços.
+
+- De modo geral, a **_API_** é composta por uma série de funções acessíveis somente por programação, e que permitem utilizar características do software menos evidentes ao utilizador tradicional. Por exemplo, um sistema operativo possui uma grande quantidade de funções na **_API_**, que permitem ao programador criar janelas, aceder a arquivos, cifrar dados etc. Mas as **_APIs_** dos sistemas operativos costumam ser dissociadas de tarefas mais essenciais, como a manipulação de blocos de memória e acesso a dispositivos. Essas tarefas são atributos do núcleo de sistema e raramente são programáveis. Outro exemplo são programas de desenho geométrico que possuem uma **_API_** específica para criar automaticamente entidades de acordo com padrões definidos pelo utilizador.
+
+- Mais recentemente, o uso de **_API_** tem-se generalizado nos plugins (acessórios que complementam a funcionalidade de um programa). Os autores do programa principal fornecem uma **_API_** específica para que outros autores criem plugins, estendendo as funcionalidades do programa.
