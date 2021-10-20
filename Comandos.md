@@ -12,6 +12,8 @@
 10. yarn add express-async-errors|lib de tratativas de errors
 11. yarn add jsonwebtoken
 12. yarn add @types/jsonwebtoken -D
+13. yarn add bcryptjs
+14. yarn add @types/bcryptjs -D
 
 -D = dependencia de desenvolvimento
 -y = sim para todas as perguntas
