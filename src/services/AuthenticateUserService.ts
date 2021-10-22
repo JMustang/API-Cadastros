@@ -1,5 +1,10 @@
+interface IAuthenticateRequest {
+  email: string;
+  password: string;
+}
+
 class AuthenticateUserService {
-  async execute() {}
+  async execute({ email, password }: IAuthenticateRequest) {}
 }
 
 export { AuthenticateUserService };
