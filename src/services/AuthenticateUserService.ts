@@ -1,4 +1,7 @@
 import { getCustomRepository } from "typeorm";
+
+import { compare } from "bcryptjs";
+
 import { UsersRepositories } from "../repositories/UsersRepositories";
 
 interface IAuthenticateRequest {
@@ -18,6 +21,12 @@ class AuthenticateUserService {
     }
 
     // Verificar se a senha esta correta
+
+    const passwordMatch = await compare(password, user.password);
+
+    if (!passwordMatch) {
+      throw new Error("Email/Password incorrect!");
+    }
 
     // Gerar token
   }
