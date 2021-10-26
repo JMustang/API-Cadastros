@@ -1,6 +1,7 @@
 import { getCustomRepository } from "typeorm";
 
 import { compare } from "bcryptjs";
+import { sign } from "jsonwebtoken";
 
 import { UsersRepositories } from "../repositories/UsersRepositories";
 
@@ -29,6 +30,14 @@ class AuthenticateUserService {
     }
 
     // Gerar token
+    const token = sign(
+      { email: user.email },
+      "ef5212c7986ee09e278f2f80754cef64",
+      {
+        subject: user.id,
+        expiresIn: "1d",
+      }
+    );
   }
 }
 
